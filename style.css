@@ -1,11 +1,54 @@
-.apresentacao {
-    display: flex;
-    justify-content: center;
-}
-
 body {
     background-color: rgb(44, 44, 44);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     color: #ffffff;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao {
+    display:grid;
+   grid-template-columns: auto auto;
+   gap: 10px;
+   padding: 10px;
+   width: 80%;
+   height: auto;
+}
+.currículo {
+   display:grid;
+   grid-template-columns: auto auto;
+   gap: 10px;
+   padding: 10px;
+   width: 80%;
+   height: auto;
+}
+
+.projetos {
+    display:grid;
+   grid-template-columns: auto auto;
+   gap: 10px;
+   padding: 10px;
+   width: 80%;
+   height: auto;
+}
+
+.certficados {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:10px;
+    padding: 10px;
+    width: 80%;
+    height: auto;
+}
+
+.contato {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:10px;
+    padding: 10px;
+    width: 80%;
+    height: auto;
 }
