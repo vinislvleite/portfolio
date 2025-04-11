@@ -9,14 +9,31 @@ body {
     align-items: center;
 }
 
+.foto_perfil {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin-right: 40px;
+}
+
 .apresentacao {
     display:grid;
-   grid-template-columns: auto auto;
+   grid-template-columns: auto auto auto;
+   align-items: center;
    gap: 10px;
    padding: 10px;
-   width: 80%;
+   width: 100%;
    height: auto;
+   background-color: #1c0e3d;
 }
+
+.apresentacao ul {
+    margin-left: 20px;
+}
+
 .currículo {
    display:grid;
    grid-template-columns: auto auto;
