@@ -1,6 +1,9 @@
 body {
     background-color: rgb(44, 44, 44);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lato", sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.5 !important;
     font-size: 20px;
     color: #ffffff;
     margin: 10px;
@@ -16,8 +19,25 @@ body {
     object-fit: cover;
     border: 3px solid #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    margin-right: 40px;
+    margin-left: 65%
 }
+
+.alinhar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.alinhar h1 {
+    margin-left: 9%;
+}
+
+.titulo_conteudo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 44%;
+}
+
 
 .apresentacao {
     display:grid;
@@ -26,12 +46,13 @@ body {
    gap: 10px;
    padding: 10px;
    width: 100%;
-   height: auto;
-   background-color: #1c0e3d;
+   height: 250px !important; 
+   background-color: #1c0e3d !important;
+   margin-bottom: 30px;
 }
 
-.apresentacao ul {
-    margin-left: 20px;
+.apresentacao ul, h1 {
+    margin-left: 100px;
 }
 
 .currículo {
@@ -39,8 +60,12 @@ body {
    grid-template-columns: auto auto;
    gap: 10px;
    padding: 10px;
-   width: 80%;
+   width: 50%;
    height: auto;
+   border-radius: 15px;
+   margin-top: 10px;
+   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+   margin-bottom: 30px;
 }
 
 .projetos {
@@ -48,8 +73,12 @@ body {
    grid-template-columns: auto auto;
    gap: 10px;
    padding: 10px;
-   width: 80%;
+   width: 90%;
    height: auto;
+   border-radius: 15px;
+   margin-top: 10px;
+   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+   margin-bottom: 30px;
 }
 
 .certficados {
@@ -57,8 +86,12 @@ body {
     grid-template-columns: auto auto;
     gap:10px;
     padding: 10px;
-    width: 80%;
+    width: 50%;
     height: auto;
+    border-radius: 15px;
+   margin-top: 10px;
+   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+   margin-bottom: 30px;
 }
 
 .contato {
@@ -66,6 +99,23 @@ body {
     grid-template-columns: auto auto;
     gap:10px;
     padding: 10px;
-    width: 80%;
+    width: 50%;
     height: auto;
+    border-radius: 15px;
+   margin-top: 10px;
+   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+   margin-bottom: 30px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 40%;
+}
+
+.carousel img {
+    margin: 0 auto;
+    display: block;
+    max-height: 500px;
+    object-fit: contain;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
