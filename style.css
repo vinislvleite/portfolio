@@ -32,10 +32,11 @@ body {
     margin-left: 9%;
 }
 
-.titulo_conteudo {
-    display: flex;
-    flex-direction: column;
-    margin-right: 44%;
+.titulo_conteudo{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
 }
 
 
@@ -57,15 +58,19 @@ body {
 
 .currículo {
    display:grid;
-   grid-template-columns: auto auto;
+   grid-template-columns: 1fr 2fr;
    gap: 10px;
    padding: 10px;
-   width: 50%;
+   width: 90%;
    height: auto;
    border-radius: 15px;
    margin-top: 10px;
    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
    margin-bottom: 30px;
+}
+
+.currículo ul {
+    list-style-type: none;
 }
 
 .projetos {
@@ -81,30 +86,28 @@ body {
    margin-bottom: 30px;
 }
 
-.certficados {
+.certficados_contato {
     display: grid;
-    grid-template-columns: auto auto;
-    gap:10px;
-    padding: 10px;
-    width: 50%;
+    grid-template-columns: 1fr 1fr;
+    gap:50px;
+    width: 90%;
     height: auto;
-    border-radius: 15px;
    margin-top: 10px;
-   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
    margin-bottom: 30px;
 }
 
-.contato {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap:10px;
-    padding: 10px;
-    width: 50%;
-    height: auto;
+.certificados_box, 
+.contato_box {
+    padding: 20px;
     border-radius: 15px;
-   margin-top: 10px;
-   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-   margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.certificados_box ul, 
+.contato_box ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
 }
 
 .carousel-control-prev, .carousel-control-next {
