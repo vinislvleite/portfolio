@@ -75,7 +75,7 @@ body {
 
 .projetos {
     display:grid;
-   grid-template-columns: auto auto;
+   grid-template-columns: 1fr;
    gap: 10px;
    padding: 10px;
    width: 90%;
@@ -84,6 +84,17 @@ body {
    margin-top: 10px;
    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
    margin-bottom: 30px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #6a52a1
 }
 
 .certficados_contato {
@@ -103,11 +114,24 @@ body {
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
-.certificados_box ul, 
-.contato_box ul {
+.certificados_box ul {
     list-style: none;
     padding: 10px;
     margin: 10px;
+}
+
+.contato_box img {
+    margin-right: 11px;
+}
+
+.contato_link {
+    display: flex;
+    align-items: center;
+    color: #6a52a1;
+}
+
+.contato_link p {
+    margin-top: 7px;
 }
 
 .carousel-control-prev, .carousel-control-next {
