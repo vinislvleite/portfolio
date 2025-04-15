@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(42, 42, 42);
     font-family: "Lato", sans-serif;
     margin: 0 !important;
     padding: 0 !important;
@@ -48,7 +48,7 @@ body {
    padding: 10px;
    width: 100%;
    height: 250px !important; 
-   background-color: #1c0e3d !important;
+   background-color: #2f0254 !important;
    margin-bottom: 30px;
 }
 
@@ -67,6 +67,7 @@ body {
    margin-top: 10px;
    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
    margin-bottom: 30px;
+   background-color: #323232;
 }
 
 .currículo ul {
@@ -84,6 +85,7 @@ body {
    margin-top: 10px;
    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
    margin-bottom: 30px;
+   background-color: #323232;
 }
 
 h4 {
@@ -94,7 +96,7 @@ h4 {
 
 a {
     text-decoration: none;
-    color: #6a52a1
+    color: #a084e0
 }
 
 .certficados_contato {
@@ -112,6 +114,7 @@ a {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    background-color: #323232;
 }
 
 .certificados_box ul {
@@ -127,11 +130,15 @@ a {
 .contato_link {
     display: flex;
     align-items: center;
-    color: #6a52a1;
+    color: #ffffff;
 }
 
 .contato_link p {
     margin-top: 7px;
+}
+
+.contato_link a {
+    color: #ffffff;
 }
 
 .carousel-control-prev, .carousel-control-next {
