@@ -96,7 +96,7 @@ h4 {
 
 a {
     text-decoration: none;
-    color: #a084e0
+    color: #fff
 }
 
 .certficados_contato {
@@ -137,19 +137,49 @@ a {
     margin-top: 7px;
 }
 
-.contato_link a {
-    color: #ffffff;
+.carousel-control-prev, .carousel-control-next {
+    top: 50% !important;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important;
 }
 
-.carousel-control-prev, .carousel-control-next {
-    width: 40%;
-}
+.carousel-control-prev {
+    left: 220px !important;
+    right: auto !important;
+  }
+  
+  .carousel-control-next {
+    right: 220px !important;
+    left: auto !important;
+  }
 
 .carousel img {
     margin: 0 auto;
     display: block;
-    max-height: 500px;
-    object-fit: contain;
+    max-height: 450px;
+    max-width: 65%;
+    object-fit: cover;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+
+@media screen and (max-width:1400px) {
+    .alinhar h1 {
+        margin-left: 80px !important;
+        text-align: center;    
+        padding: 10px;
+      }
+
+      .carousel-control-prev {
+        left: 150px !important;
+        right: auto !important;
+      }
+      
+      .carousel-control-next {
+        right: 150px !important;
+        left: auto !important;
+      }
+    
 }
