@@ -188,25 +188,46 @@ a {
     }
 
     .foto_perfil {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         margin: 0 auto;
         display: block;
     }
 
     .apresentacao {
         grid-template-columns: 1fr;
-        padding: 15px;
+        padding: 10px;
+        min-height: 350px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao h1 {
+        font-size: 22px;
+
     }
 
     .apresentacao ul, h1 {
-        margin-left: 0;
-        text-align: center;
+        margin-left: 0 auto;
+        list-style: none;
     }
 
     .carousel img {
         max-width: 100%;
-        max-height: 300px;
+        max-height: 400px;
+    }
+
+    .certficados_contato {
+        grid-template-columns: 1fr;
+    }
+
+    .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-control-prev {
+        display: none;
     }
 
 }
