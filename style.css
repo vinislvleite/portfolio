@@ -48,7 +48,7 @@ body {
    padding: 10px;
    width: 100%;
    height: 250px !important; 
-   background-color: #2f0254 !important;
+   background-color: #351450 !important;
    margin-bottom: 30px;
 }
 
@@ -187,30 +187,44 @@ a {
         font-size: 14px;
     }
 
-    .foto_perfil {
-        width: 100px;
-        height: 100px;
-        margin: 0 auto;
-        display: block;
-    }
-
-    .apresentacao {
-        grid-template-columns: 1fr;
-        padding: 10px;
-        min-height: 350px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .apresentacao h1 {
+    h1, h2, h3, h4 {
         font-size: 22px;
 
     }
 
-    .apresentacao ul, h1 {
-        margin-left: 0 auto;
+    .foto_perfil {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        min-height: 250px;
+    }
+
+    .apresentacao h1,
+    .apresentacao ul {
+        margin: 0 !important;
+        padding: 0;
+        width: 100%;
+        text-align: center;
         list-style: none;
+    }
+
+    .apresentacao li{
+        margin-top: 5px;
+    }
+
+    .projetos ul {
+        margin-top: 15px;    
     }
 
     .carousel img {
