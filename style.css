@@ -56,6 +56,20 @@ body {
     margin-left: 100px;
 }
 
+.botão_download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+    color: #351450;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+}
+
 .currículo {
    display:grid;
    grid-template-columns: 1fr 2fr;
@@ -211,8 +225,15 @@ a {
         align-items: center;
         text-align: center;
         padding: 10px;
-        min-height: 290px;
+        min-height: 320px;
         max-width: 900px;
+    }
+
+    .botão_download {
+        margin-top: 5px;
+        margin-left: 0;
+        align-self: center;
+        width: 160px;
     }
 
     .apresentacao h1 {
