@@ -151,6 +151,10 @@ a {
     margin-top: 7px;
 }
 
+.contato_link img {
+   object-fit: contain;
+}
+
 .carousel-control-prev, .carousel-control-next {
     top: 50% !important;
     width: 40px !important;
